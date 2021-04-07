@@ -1,0 +1,33 @@
+{% load static %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+</head>
+<body>
+
+
+<section>
+<div class="container py-5">
+    <center>
+    <div class="row">
+        <div class="col">
+        <h3>Booking Details :</h3>
+    </div>
+    </div>
+    <div class="row">
+       
+        <div class="col-md-12">
+            <form  method="POST"></form>
+            {{form|crispy}}
+        </div>
+    </center>
+    </div>
+
+</div>
+</section>
+</body>
+</html>
